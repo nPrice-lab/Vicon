@@ -15,4 +15,4 @@ ylabel('Y');
 zlabel('Z');
 title('all markers Trajectory')
 legend(arrayfun(@(m) D.markers{D.Chosen_mk(m)}.MarkerName, 1:length(D.Chosen_mk), 'UniformOutput', false), 'Interpreter', 'none');
-saveas(figure(1),[pwd '/plot/all markers Trajectory/all markers Trajectory.fig']);
+saveas(figure(1),['/Users/yilinwu/Desktop/nic/Vicon/plot/all markers Trajectory/all markers Trajectory.fig']);
