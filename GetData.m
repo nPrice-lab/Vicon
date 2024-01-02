@@ -1,4 +1,4 @@
-function [D] = GetData;
+function [D] = GetData(file);
 %[data,frame,headers,MarkersCount,makers,x,y,z] = GetData;
 
 %% clean the data
@@ -25,7 +25,7 @@ function [D] = GetData;
     % Components:All
     % Distance From Origin:None
     % Trajectory Count:Yes
-data = readtable('/Users/yilinwu/Desktop/nic/Vicon/test.csv');
+data = readtable(file);
 
 
 % get total frame index

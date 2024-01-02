@@ -1,4 +1,8 @@
-[D] = GetData;
+%% input file here
+file ='/Users/yilinwu/Desktop/nic/Vicon/test.csv';
+
+%% get data from CSV file to strut
+[D] = GetData(file);
 
 %% choose makers, time, colors
 % select the markers you wish to plot. 
